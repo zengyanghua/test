@@ -10,7 +10,11 @@ import java.util.*;
  */
 public class Convert {
 
-    //字母组合
+    /**
+     * 字母组合
+     * @param digits
+     * @return
+     */
     public static List<String> letterCombinations(String digits) {
         //字母组合结果集
         List<String> result = new ArrayList<String>();
@@ -54,7 +58,11 @@ public class Convert {
         return result;
     }
 
-    //0-99的数字转字母
+    /**
+     * 0-99的数字转字母
+     * @param number
+     * @return
+     */
     public static List<String> numToLetter(String number) {
         //字母组合结果集
         List<String> result = new ArrayList<String>();
